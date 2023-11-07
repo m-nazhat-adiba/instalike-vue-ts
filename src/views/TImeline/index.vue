@@ -32,7 +32,9 @@ onMounted(() => {
 
 <template>
   <Layout>
-    <section class="flex justify-between px-5 my-4">
+    <section class="flex gap-8 px-5 my-4 overflow-x-scroll scrollbar-hide">
+      <StoryCard />
+      <StoryCard />
       <StoryCard />
       <StoryCard />
       <StoryCard />
