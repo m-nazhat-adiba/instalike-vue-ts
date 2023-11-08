@@ -37,7 +37,8 @@ onMounted(() => {
     </header>
     <section class="flex flex-col px-5 gap-8">
       <UserCard
-        v-for="item in userData"
+        v-for="(item, key) in userData"
+        :key="key"
         :name="item.name"
         :username="item.username"
         :image="item.image"
