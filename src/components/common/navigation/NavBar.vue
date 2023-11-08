@@ -10,7 +10,9 @@ import { RouterLink } from 'vue-router'
     <RouterLink to="/">
       <Icon icon="akar-icons:home-alt1" />
     </RouterLink>
-    <Icon icon="akar-icons:search" />
+    <RouterLink to="/search">
+      <Icon icon="akar-icons:search" />
+    </RouterLink>
     <Icon icon="akar-icons:circle-plus" />
     <Icon icon="akar-icons:video" />
     <Icon icon="akar-icons:person" />
