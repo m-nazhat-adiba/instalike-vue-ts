@@ -8,6 +8,11 @@ const router = createRouter({
       name: 'home',
       component: () => import("../views/TImeline/index.vue")
     },
+    {
+      path: '/search',
+      name: 'search',
+      component: () => import("../views/Search/index.vue")
+    }
    
   ]
 })
